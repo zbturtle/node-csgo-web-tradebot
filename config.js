@@ -5,7 +5,7 @@ module.exports = {
     contextID: 2, // ContextID
     bots: {
         bot_1: {
-            siteName: 'Bot 1',  // Will be displayed under the "All bots" tab e.g. "Keys Only"
+            siteName: 'Steve',  // Will be displayed under the "All bots" tab e.g. "Keys Only"
             accountName: '',    // bot_1 username
             password: '',       // bot_1  password
             twoFactorCode: '',  // shared_secret value
@@ -18,14 +18,14 @@ module.exports = {
     SteamApisKey: '',   // Your SteamApis.com key, get it here: https://steamapis.com
     SteamApisCompactValue: 'safe_ts.last_30d', // Use safe price calculated from 30 days of data, more info: https://steamapis.com/developers (Market Items - Optional Query Parameters "compact_value")
     site: {
-        header: 'CSG0.Trade', // Name/header/title of website. Prefix for  <title></title> (For more: /index.html line: 9) 
+        header: 'Rust-Drop', // Name/header/title of website. Prefix for  <title></title> (For more: /index.html line: 9) 
         steamGroup: '#',
-        copyrights: 'Copyright © csg0.trade 2017',  // Copyright text
+        copyrights: 'Copyright © rust-drop.live 2020',  // Copyright text
     },
-    domain: 'example.com',    // Domain name only, follow the example (no http:// & no www & no /)
-    website: 'http://example.com',    // Website URL, follow the example (do not add / at the end)
+    domain: 'rust-drop.live',    // Domain name only, follow the example (no http:// & no www & no /)
+    website: 'http://rust-drop.live',    // Website URL, follow the example (do not add / at the end)
     websitePort: 80,    // Website PORT, don't change it unless you're using a reverse proxy
-    tradeMessage: 'Trade offer from csg0.trade | If you did not request this offer or the offer looks invalid please decline.', // Quite obvious
+    tradeMessage: 'Trade offer from rust-drop.live | If you did not request this offer or the offer looks invalid please decline.', // Quite obvious
     rates: {
         ignoreItemsBelow: 0.05, // Ignore items below this price (price * rate < ignoreItemsBelow) - shows (Too Low) for user
         trashPriceBelow: 0.2,   // Items below this price are considered trash, the trash rate modifier will be applied
