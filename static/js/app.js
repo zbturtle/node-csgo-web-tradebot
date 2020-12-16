@@ -222,7 +222,7 @@ $(function() {
 
     socket.on('site', function(data) {
         app.site = data;
-        window.document.title = data.header + ' | Web-based CS:GO Trading Bot';
+        window.document.title = data.header + ' | Rust-Drop Trading';
     });
 
     socket.on('offer status', function(data) {
@@ -268,7 +268,7 @@ $(function() {
                 userInventory.push(item);
             }
             if( ! userInventory.length) {
-                userInventory = { error: { error: 'No tradeable items found.' } };
+                userInventory = { error: { error: 'No tradable items found.' } };
             } else {
                 userInventory = sortInventory(userInventory, true);
             }
@@ -312,7 +312,7 @@ $(function() {
         }
         if( ! botInventory.length) {
             if( ! error) {
-                error = { error: { error: 'No tradeable items found. Make sure all bots have items and are not set to private.' } };
+                error = { error: { error: 'No tradable items found. Make sure all bots have items and are not set to private.' } };
             }
             botInventory = { error: error };
         } else {
